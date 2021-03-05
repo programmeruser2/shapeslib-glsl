@@ -1,7 +1,3 @@
-uniform vec2 u_resolution;
-uniform vec2 u_mouse;
-uniform float u_time;
-
 vec2 current_coordinate(void) {
 	return vec2(gl_FragCoord.x, gl_FragCoord.y);
 }
